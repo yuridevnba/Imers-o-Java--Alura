@@ -45,17 +45,17 @@ for (Map<String,String> filme : listaDeFilmes) { // n existe foreach no java iss
 System.out.println(" \u001b[30m\u001b[41m CLASSIFICAÇÃO:"+filme.get("imDbRating")+ "\u001b[3m\u001b[31m\u001b[m");
 System.out.println();
     //System.out.printf("%.1s%n",filme.get("imDbRating"));
-   Integer x= Integer.parseInt(filme.get("imDbRating"));
-    for(int i=1;i<=x;i++){
+  // Integer x= Integer.parseInt(filme.get("imDbRating"));
+    //for(int i=1;i<=x;i++){
         //System.out.println("\uD83D\uDC99 ");//\uD83D\uDC99
-        System.out.println("\u2B50");
+       // System.out.println("\u2B50");
        
     }
    // System.out.printf();
 }
    
 
-    }
+    //}
 }
 //"imDbRating":"9.2"
 //"\u001b[37m \u001b
