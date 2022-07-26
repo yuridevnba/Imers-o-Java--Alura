@@ -14,7 +14,7 @@ public class JsonParser {
         Matcher matcher = REGEX_ITEMS.matcher(json); // pra chamar a primeira expressão regular usa o matcher
         if (!matcher.find()) {   // o find
 
-            throw new IllegalArgumentException("Não encontrou items."); // se n encontrar usa uma msg.
+            throw new IllegalArgumentException("Não encontrou items."); // se n encontrar, usa uma msg.
         }
 
         String[] items = matcher.group(1).split("\\},\\{"); // }{ é oq vai separar do próximo filme.// filmes, conseguiu um padrão que  vai conseguir olhar filme a filme.
@@ -36,7 +36,7 @@ public class JsonParser {
         }
 
         return dados;
-  
+       
 
     }
 
